@@ -7,7 +7,7 @@ client = OpenAI(
 )
 
 stream = client.responses.create(
-    model="phi4-reasoning",
+    model="gpt-oss:20b",
     input="Write me a poem about the sea.",
     stream=True,
 )
