@@ -6,14 +6,6 @@ This repository contains Python code samples demonstrating the [Open Responses](
 
 Open Responses is an open specification for AI model interactions that provides a unified interface for working with language models. These samples show how to use the Open Responses API with Python and the OpenAI client library.
 
-## Quick Start with GitHub Codespaces
-
-The quickest way to get started is using GitHub Codespaces, a hosted environment that is automatically set up for you. Click this button to create a Codespace (4-core machine recommended):
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=guygregory/open-responses-python-samples)
-
-Wait for the Codespace to initialize. Python 3.12, Python extension, and dependencies will be automatically installed. For an even more streamlined experience, add the environment variables into your [Codespace user secrets](https://github.com/settings/codespaces).
-
 ## Samples
 
 This repository includes the following examples:
