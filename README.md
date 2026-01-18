@@ -41,11 +41,14 @@ pip install openai requests
 These samples are configured to connect to a local Ollama server. Make sure you have:
 
 1. Ollama installed and running on `http://localhost:11434`
-2. The required model downloaded (e.g., `gpt-oss:20b` or `phi4-reasoning`)
+2. The required models downloaded:
+   - `gpt-oss:20b` - Used by most samples (basic, reasoning, structured, function calling)
+   - `phi4-reasoning` - Used by streaming samples
 
-To pull a model with Ollama:
+To pull the models with Ollama:
 ```bash
 ollama pull gpt-oss:20b
+ollama pull phi4-reasoning
 ```
 
 ## Usage
@@ -62,7 +65,7 @@ Each sample is self-contained and demonstrates a specific feature of the Open Re
 
 All samples use the following default configuration:
 - **Base URL**: `http://localhost:11434/v1/`
-- **API Key**: `ollama` (required but ignored by Ollama)
+- **API Key**: `ollama` (required by the OpenAI client library but not used for authentication by Ollama - can be any string)
 
 You can modify these settings in each sample file to connect to different Open Responses-compatible servers.
 
