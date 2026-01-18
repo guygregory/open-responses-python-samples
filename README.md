@@ -33,7 +33,7 @@ This repository includes the following examples:
 Install the required dependencies:
 
 ```bash
-pip install openai requests
+pip install -r requirements.txt
 ```
 
 ## Setup
