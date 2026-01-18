@@ -9,7 +9,7 @@ client = AsyncOpenAI(
 
 async def main():
     stream = await client.responses.create(
-        model="phi4-reasoning",
+        model="gpt-oss:20b",
         input="Write me a poem about the sea.",
         stream=True,
     )
