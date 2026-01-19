@@ -41,14 +41,11 @@ pip install -r requirements.txt
 These samples are configured to connect to a local Ollama server. Make sure you have:
 
 1. Ollama installed and running on `http://localhost:11434`
-2. The required models downloaded:
-   - `gpt-oss:20b` - Used by most samples (basic, reasoning, structured, function calling)
-   - `phi4-reasoning` - Used by streaming samples
+2. The example model: `gpt-oss:20b`
 
-To pull the models with Ollama:
+To pull the model with Ollama:
 ```bash
 ollama pull gpt-oss:20b
-ollama pull phi4-reasoning
 ```
 
 ## Usage
